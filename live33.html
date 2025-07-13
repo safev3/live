@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://das9dkeye.yunlidai.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta name="format-detection" content="telephone=no"><meta name="format-detection" content="email=no"><meta http-equiv="pragram" content="no-cache"><meta name="renderer" content="webkit"><meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="https://junbao-pro.oss-cn-shenzhen.aliyuncs.com/course/BzHeHWd8dYWE6c1jO7kUvWPjvnVlHvD6.png"><title>股王争霸</title><script>var isVod = 0
+    var partner_id = 0
+    // var apiHost = '/'
+    var access_token = ""
+    var courseId = ""
+    var search = window.location.search.substr(1)
+    var arr = search.split('&')
+    var queryObj = {}
+    for (var i = 0; i < arr.length; i++) {
+      var item = arr[i].split('=')
+      queryObj[item[0]] = item[1]
+    }
+    access_token = queryObj.token
+    courseId = queryObj.id
+    if (!courseId) {
+      var pathname = window.location.pathname
+      var arr = pathname.split('/')
+      courseId = arr[arr.length - 1]
+    }
+    if (queryObj.inviteCode) {
+      window.sessionStorage.setItem('inviteCode', queryObj.inviteCode)
+    }</script><link href="./33_files/app.b3ac1956.css" rel="preload" as="style"><link href="./33_files/chunk-vendors.cf74d15c.css" rel="preload" as="style"><link href="./33_files/app.50f599da.js" rel="preload" as="script"><link href="./33_files/chunk-vendors.acc77ef4.js" rel="preload" as="script"><link href="./33_files/chunk-vendors.cf74d15c.css" rel="stylesheet"><link href="./33_files/app.b3ac1956.css" rel="stylesheet"><script src="./33_files/TalkFunWebSDK-8.5.min.js" id="loader-0"></script></head><body><noscript><strong>We're sorry but Webpack App doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div class="main-layout"><div id="appLayout"><div data-v-2534af60="" class="pc-login-box" style="background-image: url(&quot;https://junbao-pro.oss-cn-shenzhen.aliyuncs.com/course/143cEIACtueUCWGMBGaUp2YfYlwlUiFd.png&quot;);"><div data-v-2534af60="" class="head"><div data-v-2534af60="" class="logo"><img data-v-2534af60="" src="./33_files/awgQCCZE4HySeCZziIcftfQuhImaCG64.png" alt=""></div></div><div data-v-2534af60="" class="login-panel"><!----><form data-v-2534af60="" class="el-form"><div data-v-2534af60="" class="el-form-item form-group is-required"><label for="loginName" class="el-form-item__label" style="width: 80px;">用户名:</label><div class="el-form-item__content" style="margin-left: 80px;"><div data-v-2534af60="" class="el-input"><!----><input type="text" autocomplete="off" maxlength="50" class="el-input__inner"><!----><!----><!----><!----></div><!----></div></div><div data-v-2534af60="" class="el-form-item form-group is-required"><label for="password" class="el-form-item__label" style="width: 80px;">密 码:</label><div class="el-form-item__content" style="margin-left: 80px;"><div data-v-2534af60="" class="el-input"><!----><input type="password" autocomplete="off" maxlength="20" class="el-input__inner"><!----><!----><!----><!----></div><!----></div></div><div data-v-2534af60="" class="el-form-item form-group"><!----><div class="el-form-item__content" style="margin-left: 80px;"><!----></div></div></form><div data-v-2534af60="" class="form-group btn"><button data-v-2534af60="" type="submit" class="el-button login-btn el-button--primary" style="background: rgba(0, 0, 0, 0.6);"><!----><!----><span>登 录</span></button><button data-v-2534af60="" type="button" class="el-button login-btn visitor-btn el-button--primary"><!----><!----><span>游客登录</span></button></div><!----><!----></div><div data-v-2534af60="" class="el-dialog__wrapper" style="display: none;"><div role="dialog" aria-modal="true" aria-label="直播间密码" class="el-dialog live_password_dialog" style="margin-top: 0px; width: 375px;"><div class="el-dialog__header"><span class="el-dialog__title">直播间密码</span><button type="button" aria-label="Close" class="el-dialog__headerbtn"><i class="el-dialog__close el-icon el-icon-close"></i></button></div><!----><!----></div></div></div></div><iframe id="checkHighDefense" src="./33_files/check.html" frameborder="0" class="check_high_defense"></iframe></div><script src="./33_files/chunk-vendors.acc77ef4.js"></script><script src="./33_files/app.50f599da.js"></script><script>// var vConsole = new VConsole();
+  (function (doc, win) {
+    var browser = {
+      versions: function () {
+        var u = navigator.userAgent,
+          app = navigator.appVersion;
+        return {
+          trident: u.indexOf('Trident') > -1, //IE�ں�
+          presto: u.indexOf('Presto') > -1, //opera�ں�
+          webKit: u.indexOf('AppleWebKit') > -1, //ƻ�����ȸ��ں�
+          gecko: u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1,//����ں�
+          mobile: !!u.match(/AppleWebKit.*Mobile.*/), //�Ƿ�Ϊ�ƶ��ն�
+          ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios�ն�
+          android: u.indexOf('Android') > -1 || u.indexOf('Adr') > -1, //android�ն�
+          iPhone: u.indexOf('iPhone') > -1, //�Ƿ�ΪiPhone����QQHD�����
+          iPad: u.indexOf('iPad') > -1, //�Ƿ�iPad
+          webApp: u.indexOf('Safari') == -1, //�Ƿ�webӦ�ó���û��ͷ����ײ�
+          weixin: u.indexOf('MicroMessenger') > -1, //�Ƿ�΢�� ��2015-01-22������
+          qq: u.match(/\sQQ/i) == " qq" //�Ƿ�QQ
+        };
+      }(),
+      language: (navigator.browserLanguage || navigator.language).toLowerCase()
+    }
+
+    var docEl = doc.documentElement,
+      resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+      recalc = function () {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) return;
+        if (clientWidth >= 800) {
+        } else {
+          docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+        }
+      };
+
+    if (!doc.addEventListener) return;
+    win.addEventListener(resizeEvt, recalc, false);
+    doc.addEventListener('DOMContentLoaded', recalc, false);
+  })(document, window)</script></body></html>
